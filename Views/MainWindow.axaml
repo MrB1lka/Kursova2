@@ -45,7 +45,7 @@
         >
         <StackPanel >
             <TextBlock Text="Enter target folders path, seperate them with@"/>
-            <TextBox Watermark="asdas/asd/aq пртклад" />
+            <TextBox Watermark="asdas/asd/aq пртклад" Name="way" />
         </StackPanel>
          </Border>
         <!-- Prevision and Next -->
@@ -69,7 +69,7 @@
         Padding="2"
         Margin="2,4,2,0"
         >
-        <StackPanel Orientation="Horizontal" Spacing="3">
+        <StackPanel Orientation="Horizontal" Spacing="3" Name="StoragePhoto">
             
         </StackPanel>
          </Border>
@@ -85,8 +85,8 @@
         <StackPanel Orientation="Horizontal" Spacing="3">
             
         </StackPanel>
-        </Border>
-
+         </Border>
+        <!-- інформація про зображення -->
         <Border Background="MintCream"
         BorderBrush="Black"
         BorderThickness="2"
