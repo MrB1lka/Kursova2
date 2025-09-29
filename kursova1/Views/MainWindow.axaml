@@ -1,0 +1,114 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:kursova1.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="kursova1.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="kursova1"
+        Background="LightBlue">
+        
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <StackPanel>
+    
+   
+        
+       
+        <!-- 2 Buttons -->
+        <Border Background="MintCream"
+        BorderBrush="Black"
+        BorderThickness="2"
+        CornerRadius="3"
+        Padding="2"
+        Margin="2,0,2,0"
+        >
+        <StackPanel Orientation="Horizontal" Spacing="3">
+            <Button Content="download" Click="OnClick"/>
+            <Button Content="turn off" Click="ShutDown"/>
+        </StackPanel>
+         </Border>
+        <!-- шлях до файлу -->
+        <Border Background="MintCream"
+        BorderBrush="Black"
+        BorderThickness="2"
+        CornerRadius="3"
+        Padding="2"
+        Margin="2,4,2,0"
+        >
+        <StackPanel >
+            <TextBlock Text="Enter target folders path, seperate them with@"/>
+            <TextBox Watermark="asdas/asd/aq пртклад" />
+        </StackPanel>
+         </Border>
+        <!-- Prevision and Next -->
+        <Border Background="MintCream"
+        BorderBrush="Black"
+        BorderThickness="2"
+        CornerRadius="3"
+        Padding="2"
+        Margin="2,4,2,0"
+        >
+        <StackPanel Orientation="Horizontal" Spacing="3">
+            <Button Content="Prevision" Click="Prevision"/>
+            <Button Content="Next" Click="Next"/>
+        </StackPanel>
+         </Border>
+        <!-- Склад фото -->
+        <Border Background="MintCream"
+        BorderBrush="Black"
+        BorderThickness="2"
+        CornerRadius="3"
+        Padding="2"
+        Margin="2,4,2,0"
+        >
+        <StackPanel Orientation="Horizontal" Spacing="3">
+            
+        </StackPanel>
+         </Border>
+        <!-- 1 фото зі складу -->
+        <Border Background="MintCream"
+        BorderBrush="Black"
+        BorderThickness="2"
+        CornerRadius="3"
+        Padding="2"
+        Margin="2,4,2,0"
+        Height="350"
+        >
+        <StackPanel Orientation="Horizontal" Spacing="3">
+            
+        </StackPanel>
+        </Border>
+
+        <Border Background="MintCream"
+        BorderBrush="Black"
+        BorderThickness="2"
+        CornerRadius="3"
+        Padding="2"
+        Margin="2,4,2,0"
+        
+        >
+        <StackPanel Orientation="" Spacing="3">
+            <TextBlock Text="FileName:"/>
+            <TextBlock Text="Size:"/>
+            <TextBlock Text="Creation Date:"/>
+            <TextBlock Text="Resolution:"/>
+            <TextBlock Text="Format:"/>
+        </StackPanel>
+        </Border>
+
+    
+         
+
+
+    </StackPanel>
+
+    
+</Window>
