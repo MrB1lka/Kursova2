@@ -82,9 +82,9 @@
         Margin="2,4,2,0"
         Height="350"
         >
-        <StackPanel Orientation="Horizontal" Spacing="3">
-            
-        </StackPanel>
+        
+            <Image Name="Phot" />
+        
          </Border>
         <!-- інформація про зображення -->
         <Border Background="MintCream"
@@ -96,11 +96,11 @@
         
         >
         <StackPanel Orientation="" Spacing="3">
-            <TextBlock Text="FileName:"/>
-            <TextBlock Text="Size:"/>
-            <TextBlock Text="Creation Date:"/>
-            <TextBlock Text="Resolution:"/>
-            <TextBlock Text="Format:"/>
+            <TextBlock Name="FileNameText" Text="FileName:"/>
+        <TextBlock Name="SizeText" Text="Size:"/>
+        <TextBlock Name="CreationDateText" Text="Creation Date:"/>
+        <TextBlock Name="ResolutionText" Text="Resolution:"/>
+        <TextBlock Name="FormatText" Text="Format:"/>
         </StackPanel>
         </Border>
 

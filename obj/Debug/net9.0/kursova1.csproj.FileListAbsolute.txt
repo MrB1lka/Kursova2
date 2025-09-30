@@ -147,3 +147,7 @@ C:\Users\Maks\Desktop\Kursova2\obj\Debug\net9.0\refint\kursova1.dll
 C:\Users\Maks\Desktop\Kursova2\obj\Debug\net9.0\kursova1.pdb
 C:\Users\Maks\Desktop\Kursova2\obj\Debug\net9.0\kursova1.genruntimeconfig.cache
 C:\Users\Maks\Desktop\Kursova2\obj\Debug\net9.0\ref\kursova1.dll
+C:\Users\Maks\Desktop\Kursova2\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Maks\Desktop\Kursova2\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\Maks\Desktop\Kursova2\bin\Debug\net9.0\System.Private.Windows.Core.dll
+C:\Users\Maks\Desktop\Kursova2\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
